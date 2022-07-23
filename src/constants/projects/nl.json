@@ -1,0 +1,64 @@
+[
+  {
+    "id": "syncwatch-video",
+    "title": "SyncWatch.Video",
+    "type": "Web App",
+    "description": "SyncWatch.Video is een webapplicatie waarmee gebruikers samen synchroon video's van onder andere YouTube kunnen kijken.",
+    "techniques": [
+      "next-js",
+      "react-js",
+      "node-js",
+      "scss",
+      "socket-io"
+    ],
+    "preview": "syncwatch.gif",
+    "previewFull": "syncwatch-full.gif",
+    "url": "https://syncwatch.video"
+  },
+  {
+    "id": "pipopipette",
+    "title": "Pipopipette",
+    "type": "Web App",
+    "description": "Pipopipette brengt het Dots & Boxes spel van papier naar het web. Speel het samen online met een vriend, of zelfs met twee of drie vrienden tegelijk!",
+    "techniques": [
+      "next-js",
+      "react-js",
+      "node-js",
+      "scss",
+      "socket-io"
+    ],
+    "preview": "pipopipette.png",
+    "previewFull": "pipopipette-full.png",
+    "url": "https://pipopipette.com"
+  },
+  {
+    "id": "krabblio",
+    "title": "Krabbl.io",
+    "type": "Web App",
+    "description": "Op Krabbl.io kan je online samen met anderen het tekenspel Pictionary spelen.",
+    "techniques": [
+      "react-js",
+      "nest-js",
+      "scss",
+      "socket-io"
+    ],
+    "preview": "krabblio.gif",
+    "previewFull": "krabblio-full.gif",
+    "url": "https://krabbl.io"
+  },
+  {
+    "id": "csvbol",
+    "title": "Management tool csv BOL",
+    "type": "Web App",
+    "description": "Voor voetbalclub csv BOL heb ik een tool gemaakt die het werk van de vrijwilligers van de club eenvoudiger en geautomatiseerd maakt. De tool stelt de vrijwilligers in staat om kleedkamer- en scheidsrechterindelingen te maken.",
+    "techniques": [
+      "laravel",
+      "php",
+      "html",
+      "css",
+      "jquery"
+    ],
+    "preview": "csvbolbeheer.gif",
+    "previewFull": "csvbolbeheer-full.gif"
+  }
+]

@@ -1,0 +1,82 @@
+@import "normalize.css";
+
+@font-face {
+  font-family: "Karla";
+  src: url("/fonts/Karla-Regular.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("/fonts/Karla-Italic.woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("/fonts/Karla-Medium.woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("/fonts/Karla-SemiBold.woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("/fonts/Karla-Bold.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Italic.woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Medium.woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-SemiBold.woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Bold.woff");
+  font-weight: 700;
+}
+
+:root {
+  --font-primary: "Karla";
+  --font-secondary: "Poppins";
+
+  --blue-500: #0b132b;
+  --blue-400: #1c2541;
+  --blue-300: #3a506b;
+  --cyan-400: #5bc0be;
+  --grey-400: #d4d0c4;
+  --white: #fff;
+}
+
+:global(*) {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-primary), sans-serif;
+  /* 1rem = 10px */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+}

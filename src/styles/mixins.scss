@@ -1,0 +1,42 @@
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin respond-to-tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin respond-to-desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+$max-width: 1040px;
+
+@mixin centered {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $max-width;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  position: relative;
+  width: 100%;
+
+  @include respond-to-tablet {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+}
+
+@mixin line-clamp($lines: 2, $line-height: false) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+
+  @if $line-height {
+    max-height: $line-height * $lines * 1px;
+  }
+}

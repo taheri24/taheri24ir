@@ -1,0 +1,34 @@
+---
+const { locale, title } = Astro.props
+---
+
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="msapplication-TileColor" content="#87BFBE" />
+    <meta name="theme-color" content="#87BFBE" />
+    <meta
+      name="description"
+      content="Hi, I am Silvsan. A frontend and backend developer."
+    />
+    <meta
+      name="keywords"
+      content="Silweb.dev, developer, frontend, backend, portfolio"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <title>{title} - Silweb.dev</title>
+    <style lang="scss">
+      @import "../styles/main.scss";
+    </style>
+    <script
+      async
+      src="https://ackee.syncwatch.video/tracker.js"
+      data-ackee-server="https://ackee.syncwatch.video"
+      data-ackee-domain-id="fb0769b2-b3ab-493a-ae10-91ff308c72a2"
+    ></script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "frontend": [
+
+
+    "next-js",
+    "scss",
+    "react-js",
+     "javascript"
+
+  ],
+  "backend": [
+    "Golang",
+    "Nodejs",
+    "MySQL",
+    "Redis",
+    "MongoDB"
+
+  ],
+  "tool": [
+    "contentful",
+    "docker"
+  ]
+}

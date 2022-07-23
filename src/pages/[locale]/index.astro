@@ -1,0 +1,39 @@
+---
+import { Project } from "models/project";
+import BaseLayout from "layouts/base-layout.astro";
+import constants from "constants/index";
+import Contact from "components/organisms/contact.svelte";
+import Footer from "components/organisms/footer.svelte";
+import Header from "components/organisms/header.svelte";
+import i18next from "utils/i18next";
+import Intro from "components/organisms/intro.svelte";
+import Projects from "components/organisms/projects.svelte";
+import Skills from "components/organisms/skills.svelte";
+
+const { locale: requestLocale } = Astro.request.params;
+const { locale: propLocale } = Astro.props;
+
+const locale = requestLocale || propLocale || 'en';
+
+i18next.changeLanguage(locale);
+
+const projects = constants.projects[locale];
+
+export async function getStaticPaths() {
+  return [
+    { params: { locale: 'en' } },
+    { params: { locale: 'nl' } },
+  ];
+}
+---
+
+<BaseLayout locale={locale} title='Home'>
+  <main>
+    <Header />
+    <Intro />
+    <Projects projects={projects} client:visible />
+    <Skills />
+    <Contact />
+    <Footer />
+  </main>
+</BaseLayout>

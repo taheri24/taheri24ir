@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "taheri24.ir",
+    "navigation": {
+      "portfolio": "Portfolio",
+      "skills": "Skills",
+      "contact": "Contact"
+    }
+  },
+  "intro": {
+    "title": "Hi, I am <strong>Silvan</strong>",
+    "description": {
+      "line1": "a <strong>frontend</strong> and",
+      "line2": "<strong>backend</strong> developer"
+    },
+    "showWork": "See my work"
+  },
+  "projects": {
+    "subtitle": "Portfolio",
+    "title": "Projects I worked on",
+    "seeProject": "View project",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "skills": {
+    "subtitle": "Skills",
+    "title": "The skills I have",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tool": "Tools"
+  },
+  "contact": {
+    "title": "Feel free to contact me!",
+    "subtitle": "Contact",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    }
+  },
+  "techniques": {
+    "astro": "Astro",
+    "css": "CSS",
+    "docker": "Docker",
+     "graphql": "GraphQL",
+    "html": "HTML",
+    "javascript": "JavaScript",
+    "next-js": "Next.js",
+    "node-js": "Node.js",
+     "react-js": "React.js",
+    "scss": "SCSS",
+    "socket-io": "Socket.io"
+
+  }
+}

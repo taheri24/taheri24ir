@@ -1,0 +1,65 @@
+{
+  "site": {
+    "title": "Silweb.dev",
+    "navigation": {
+      "portfolio": "Portfolio",
+      "skills": "Skills",
+      "contact": "Contact"
+    }
+  },
+  "intro": {
+    "title": "Hoi, ik ben <strong>Silvan</strong>",
+    "description": {
+      "line1": "een <strong>frontend</strong> en",
+      "line2": "<strong>backend</strong> developer"
+    },
+    "showWork": "Zie mijn werk"
+  },
+  "projects": {
+    "subtitle": "Portfolio",
+    "title": "Projecten waar ik aan gewerkt heb",
+    "seeProject": "Zie project",
+    "previous": "Vorige",
+    "next": "Volgende"
+  },
+  "skills": {
+    "subtitle": "Skills",
+    "title": "De vaardigheden die ik bezit",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tool": "Tools"
+  },
+  "contact": {
+    "title": "Neem gerust contact met mij op!",
+    "subtitle": "Contact",
+    "form": {
+      "name": "Naam",
+      "email": "Email",
+      "message": "Bericht",
+      "send": "Verstuur"
+    }
+  },
+  "techniques": {
+    "astro": "Astro",
+    "contentful": "Contentful",
+    "css": "CSS",
+    "docker": "Docker",
+    "gatsby": "Gatsby",
+    "graphql": "GraphQL",
+    "html": "HTML",
+    "javascript": "JavaScript",
+    "jquery": "jQuery",
+    "laravel": "Laravel",
+    "nest-js": "Nest.js",
+    "next-js": "Next.js",
+    "node-js": "Node.js",
+    "php": "PHP",
+    "react-js": "React.js",
+    "scss": "SCSS",
+    "socket-io": "Socket.io",
+    "svelte": "Svelte",
+    "tailwind": "Tailwind",
+    "vue-js": "Vue.js",
+    "wordpress": "WordPress"
+  }
+}
